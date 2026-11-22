@@ -10,3 +10,9 @@ wheels/
 .venv
 .env
 .env.secrets
+# SQLite databases and temporary WAL files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
